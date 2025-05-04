@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Seño Natalia</title>
+    <style>
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(45deg, #f3e5f5, #e8f5e9, #e1f5fe, #fff9c4); /* Rosa, verde, azul, amarillo */
+            background-size: 400% 400%;
+            animation: gradientBackground 10s ease infinite;
+            margin: 0;
+            padding: 0;
+            color: #4caf50; /* Verde elegante */
+        }
+
+        header {
+            background-color: #ab47bc; /* Lila suave */
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            padding: 40px;
+            border-bottom: 4px solid #ffeb3b; /* Borde amarillo brillante */
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 15px rgba(171, 71, 188, 0.3);
+        }
+
+        header:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(171, 71, 188, 0.5);
+        }
+
+        h1 {
+            color: #ffffff; /* Blanco */
+            font-size: 50px;
+            letter-spacing: 2px;
+        }
+
+        .intro {
+            font-size: 22px;
+            color: #607d8b; /* Gris azulado */
+            text-align: center;
+            margin-top: 30px;
+            line-height: 1.6;
+            opacity: 0.9;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #c8e6c9; /* Verde claro */
+            color: #388e3c;
+            font-size: 22px;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(56, 142, 62, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        nav:hover {
+            transform: scale(1.05);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            background-color: #00bcd4; /* Azul vibrante */
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0, 188, 212, 0.3);
+        }
+
+        nav a:hover {
+            background-color: #ffeb3b; /* Amarillo brillante */
+            color: #388e3c; /* Verde oscuro */
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #ab47bc; /* Lila suave */
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 18px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(171, 71, 188, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PÁGINA WEB SEÑO NATALIA</h1>
+    </header>
+
+    <div class="intro">
+        <p>¡Hola! Soy la Seño Natalia y aquí encontrarás todos los trabajos y actividades para mis pequeños alumnos.</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="actividades.html">Actividades</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="dibujos.html">Dibujos</a></li>
+            <li><a href="cuentos.html">Cuentos</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2025 Seño Natalia.</p>
+    </footer>
+</body>
+</html>
